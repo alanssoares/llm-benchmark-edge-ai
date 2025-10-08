@@ -1,0 +1,26 @@
+# Core ML dependencies
+transformers==4.37.2
+torch==2.1.2
+tokenizers==0.15.0
+sentencepiece==0.1.99
+
+# ONNX for optimization
+onnxruntime==1.16.3
+
+# Data handling
+datasets==2.16.1
+numpy==1.24.4
+
+# System monitoring
+psutil==5.9.6
+
+# Progress tracking
+tqdm==4.66.1
+
+# Configuration and logging
+pyyaml==6.0.1
+colorlog==6.8.0
+
+# Output formatting
+pandas==2.1.4
+tabulate==0.9.0

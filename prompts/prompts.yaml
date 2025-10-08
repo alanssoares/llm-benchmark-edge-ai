@@ -1,0 +1,19 @@
+prompts:
+  default: "Explique o conceito de aprendizado por reforço."
+  
+  categories:
+    reasoning:
+      - "Se todos os gatos são mamíferos e alguns mamíferos voam, alguns gatos podem voar?"
+      - "Uma empresa tem 100 funcionários. 60% trabalham no departamento A, 40% no departamento B. Se 20 funcionários trabalham em ambos, quantos trabalham apenas no departamento A?"
+    
+    creative:
+      - "Escreva uma história curta sobre um robô que descobre emoções."
+      - "Invente uma receita usando apenas ingredientes que começam com a letra 'M'."
+    
+    factual:
+      - "Quais são os principais componentes de uma célula?"
+      - "Explique como funciona o protocolo HTTP."
+    
+    portuguese:
+      - "Explique a diferença entre 'mas' e 'mais' em português."
+      - "Conjugue o verbo 'fazer' no pretérito perfeito do indicativo."

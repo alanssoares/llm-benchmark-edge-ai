@@ -1,0 +1,24 @@
+models:
+  TinyLlama:
+    id: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    type: "text-generation"
+    max_tokens: 50
+  Phi-1.5:
+    id: "microsoft/phi-1_5"
+    type: "text-generation"
+    max_tokens: 50
+  Flan-T5:
+    id: "google/flan-t5-small"
+    type: "text2text-generation"
+    max_tokens: 50
+
+benchmark:
+  warmup_runs: 1
+  measurement_runs: 3
+  max_memory_gb: 8
+  timeout_seconds: 300
+  
+output:
+  format: "table"  # options: table, csv, json
+  save_results: true
+  output_file: "benchmark_results.json"
